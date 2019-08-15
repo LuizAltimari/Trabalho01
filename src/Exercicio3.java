@@ -20,7 +20,7 @@ public class Exercicio3 {
 			Date primeriaData = formato.parse("20/04");
 			Date segundaData = formato.parse("02/05"); 
 			Date terceiraData = formato.parse("30/05");
-			Date quartaData = formato.parse("30/05");
+			Date quartaData = formato.parse("30/06");
 			if(this.entrega.before(primeriaData) || this.entrega.equals(primeriaData)) {
 				this.notaFinal = this.notaProvisoria + 10;
 			}
